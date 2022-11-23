@@ -1,0 +1,52 @@
+.btn-actions{
+    margin-right: 10px;
+}
+
+.mx-1{
+    margin-bottom: 20px;
+    .px-3{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .fa-plus{
+        padding-right: 10px;
+    }
+}
+
+
+.modal-news-container{
+    .required{
+        color: red;
+    }
+    .modal-content{
+      .modal-header{
+        button{
+          background-color: transparent;
+          color: white;
+          border: none;
+          font-size: 27px;
+        }
+      }
+    }
+    .modal-news-body{
+      .input-container{
+        display: flex;
+        flex-direction: column;
+        input {
+          border-radius: 3px;
+          height: 30px;
+        }
+      }
+      .fix{
+        display: flex;
+      }
+      .fix1{
+        display: flex;
+        input {
+          border-radius: 3px;
+          height: 20px;
+          margin: 0px 10px 0px 10px;
+        }
+      }
+    }
+}
